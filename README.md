@@ -4,7 +4,9 @@ Prusa-Fast-Macros contains the macro definitions that I personally use on my MK3
 These macros have been optimized for speed. If you run Klipper on your cartesian Prusa printer,
 I'm sure you will find something useful here! These macro are for reference only.
 
-## build_Sheets.cfg
+![macros](https://github.com/8bitmcu/Prusa-Fast-Macros/blob/main/macros.png?raw=true)
+
+## build_sheets.cfg
 
 Contains a set of macros that I use to manage the different offsets of my build plates. Originally 
 forked from [klipper-voron2.4-config](https://github.com/garethky/klipper-voron2.4-config), 
@@ -32,5 +34,9 @@ Contains a subset of marlin gcode commands that aren't found in klipper. Thus be
 MK3S+ sliced files for marlin in klipper.
 
 Also contains the `M600` macro which I've modified so it parks directly in the front and faster.
+
+
+##
+
 
 note: `PRINT_END`, `CANCEL_PRINT` and `M600` uses the [moonraker-telegram-bot](https://github.com/nlef/moonraker-telegram-bot) plugin.
